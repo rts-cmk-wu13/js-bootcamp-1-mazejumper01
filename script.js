@@ -31,5 +31,7 @@ quotes.forEach(function(quote, i) {
     
 })
 
+const randomNumber = Math.random()
 
+console.log(randomNumber)
 
