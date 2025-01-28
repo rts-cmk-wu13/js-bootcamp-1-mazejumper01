@@ -1,6 +1,11 @@
-let quotes = ["Leo",
-     "Simba",
-      "Findus", "Emil", "Felix", "Garfield"];
+let quotes = [
+    "Leo",
+    "Simba",
+    "Findus",
+    "Emil",
+    "Felix",
+    "Garfield"
+];
 let quotesListElm = document.querySelector(".siteFooter__quote")
 
 
@@ -26,12 +31,11 @@ let i = 0;
 quotes.forEach(function(quote, i) {
 
     quotesListElm.innerHTML += `<blockquote>${quote}</blockquote>`;
-    console.log(quotes[i]);
 
-    
+
+    // console.log(quotes[i]);
+
 })
 
-const randomNumber = Math.random()
-
-console.log(randomNumber)
-
+index = Math.floor(Math.random() * quotes.length);
+console.log(index);
