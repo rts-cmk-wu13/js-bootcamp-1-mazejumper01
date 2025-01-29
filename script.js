@@ -4,7 +4,7 @@ let quotes = [
     "Do what you can, with what you have, where you are. - Theodore Roosevelt",
     "You miss 100% of the shots you don't take. - Wayne Gretzky",
     "It's not the years in your life that count. It's the life in your years. - Abraham Lincoln",
-    "Let's go golfing' - Dj Khaled",
+    "I was born to make mistakes, not to fake perfection. - Kendrick Lamar",
     "You don't have to be great to start, but you have to start to be great. - Zig Ziglar",
     "The journey of a thousand miles begins with one step. - Lao Tzu",
     "What we think, we become. - Buddha",
