@@ -10,28 +10,12 @@ let quotes = [
     "What we think, we become. - Buddha",
     "A person who never made a mistake never tried anything new. - Albert Einstein",
 ];
+
 let quotesListElm = document.querySelector(".siteFooter__quote")
 let i = 0;
 
 
-// While løkke
 
-// while( i < cats.length ) {
-//     catsListElm.innerHTML += "<li>" + cats[i] + "</li>"
-//     // i = i + 1;
-//     i++;
-// }
-
-
-// for løkke
-// for(i = 0; i < cats.length; i++ ) {
-//     console.log(cats[i]);
-
-//     catsListElm.innerHTML += "<li>" + cats[i] + "</li>"
-// }
-
-
-//foreach løkke
 quotes.forEach(function(quote, i) {
 
 
