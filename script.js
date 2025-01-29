@@ -7,11 +7,11 @@ let quotes = [
     "Garfield"
 ];
 let quotesListElm = document.querySelector(".siteFooter__quote")
-
+let i = 0;
 
 
 // While løkke
-let i = 0;
+
 // while( i < cats.length ) {
 //     catsListElm.innerHTML += "<li>" + cats[i] + "</li>"
 //     // i = i + 1;
@@ -30,12 +30,11 @@ let i = 0;
 //foreach løkke
 quotes.forEach(function(quote, i) {
 
-    quotesListElm.innerHTML += `<blockquote>${quote}</blockquote>`;
 
+    let rQuote = quotes[Math.floor(Math.random() * quotes.length)];
+    quotesListElm.innerHTML += `<blockquote>${rQuote}</blockquote>`;
 
-    // console.log(quotes[i]);
-
+    console.log(rQuote);
 })
 
-index = Math.floor(Math.random() * quotes.length);
-console.log(index);
+
