@@ -21,7 +21,7 @@ quotes.forEach(function(quote, i) {
 
     let rQuote = quotes[Math.floor(Math.random() * quotes.length)];
     quotesListElm.innerHTML = `<blockquote>${rQuote}</blockquote>`;
-    console.log(rQuote);
+    
    
 })
 
